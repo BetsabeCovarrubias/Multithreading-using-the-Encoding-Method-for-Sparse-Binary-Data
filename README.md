@@ -26,8 +26,8 @@ U 0 10,H 15 25
  
 The expected output is:
 
-U         U    H         H
-U         U    H         H
+'''U         U    H         H'''
+'''U         U    H         H'''
 U         U    H         H
 U         U    HHHHHHHHHHH
 U         U    H         H
