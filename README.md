@@ -11,9 +11,9 @@ separated by a single white space.
  
 Your solution must execute the following steps:
  
-- Read the input lines from STDIN.
-- Create n POSIX threads (where n is the number of lines in the image (width)). Each child thread executes the following tasks:
--- Receives the line number to decode, the image size, the headPos and dataPos arrays, the information about the symbols to print from the main thread, and the memory location to store the decoding process results.
--- Decodes the assigned line using the Encoding Method for Sparse Binary Data.
--- Stores the decoded line on a memory location accessible by the main thread.
-- Print the decoded image into STDOUT.
+* Read the input lines from STDIN.
+* Create n POSIX threads (where n is the number of lines in the image (width)). Each child thread executes the following tasks:
+  * Receives the line number to decode, the image size, the headPos and dataPos arrays, the information about the symbols to print from the main thread, and the memory location to store the decoding process results.
+  * Decodes the assigned line using the Encoding Method for Sparse Binary Data.
+  * Stores the decoded line on a memory location accessible by the main thread.
+* Print the decoded image into STDOUT.
