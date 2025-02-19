@@ -25,7 +25,7 @@ U 0 10,H 15 25
 0 10 15 25 0 10 15 25 0 10 15 25 0 10 15 16 17 18 19 20 21 22 23 24 25 0 10 15 25 1 9 15 25 2 3 4 5 6 7 8 15 25
  
 The expected output is:
- 
+''' 
 U         U    H         H
 U         U    H         H
 U         U    H         H
@@ -33,4 +33,4 @@ U         U    HHHHHHHHHHH
 U         U    H         H
  U       U     H         H
   UUUUUUU      H         H
- 
+''' 
